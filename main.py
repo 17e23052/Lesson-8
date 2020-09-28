@@ -1,5 +1,5 @@
 print("What is your name?")
-name = input().lower() 
+name = input().lower()
 if name == "anakin":
   print("How do you do Anakin!")
 else:
@@ -13,7 +13,15 @@ elif weather == "HOT":
 else:
   print("I can't advise you on that type of weather.")
 print("Do you like the colour blue?")
-likes_blue = input()
-if likes_blue == "Yes":
+likes_blue = input().lower()
+if likes_blue == "yes":
   print("I like blue too")
+print("Do you like dogs or cats?")
+dogsorcats = input().lower()
+if dogsorcats == "dogs":
+  print("I like dogs too!")
+elif dogsorcats == "cats":
+  print("Cats are cute but I prefer dogs.")
+else:
+  print("That wasn't dogs or cats...")
 print("Have a good day! Bye!")
